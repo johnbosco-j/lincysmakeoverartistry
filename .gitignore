@@ -1,0 +1,14 @@
+# Raw source media (originals from Instagram / WhatsApp). The optimised,
+# web-ready copies the site actually uses live in site/assets/.
+/*.heic
+/*.jpg
+/*.jpeg
+/*.webp
+/*.mp4
+/newpics/
+
+# Vercel project link (machine-specific)
+.vercel/
+
+# OS / editor noise
+.DS_Store
