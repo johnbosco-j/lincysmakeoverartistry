@@ -547,6 +547,15 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--g
 .footer-row p { margin: 0; }
 .footer-row nav { display: flex; gap: 24px; }
 .footer-row a { text-decoration: none; color: var(--gold-soft); }
+.built-by {
+  margin: 26px 0 0; text-align: center;
+  font-family: var(--ui); font-size: .8rem; letter-spacing: .18em; text-transform: uppercase;
+  color: rgba(245, 223, 224, .45);
+}
+.built-by span {
+  background: var(--gold-text-grad); -webkit-background-clip: text; background-clip: text;
+  color: transparent; font-weight: 500; padding: 0 .06em;
+}
 
 /* ---------- floating wa ---------- */
 .wa-float {
